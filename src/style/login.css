@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+section {
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* padding 때문에 width가 늘어나는 것 방지 */
+}
+
+form input[type="submit"] {
+  background-color: #ed1b24;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #e9535a;
+}
+
+.btn-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-group a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-group a:hover {
+  text-decoration: underline;
+}
+
+.btn-group span {
+  color: #aaa;
+  margin: 0 5px;
+}
+
+p.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}

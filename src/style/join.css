@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.join-section {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.join-h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-p {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.join-label {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.join-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.join-checkbox {
+  margin-right: 5px;
+}
+
+.join-agree-label {
+  flex: 1;
+  margin: 10px auto;
+}
+
+.join-button {
+  padding: 10px 15px;
+  background-color: #ed1b24;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.join-button:hover {
+  background-color: #e9535a;
+}
+
+.join-message {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.join-error {
+  color: red;
+}
+
+.join-success {
+  color: green;
+}

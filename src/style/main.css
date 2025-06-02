@@ -1,0 +1,291 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+/* main */
+/* main section{padding: 20px 0px;}
+
+main section h2{
+  font-style: 20px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+} */
+
+/* swiper slide */
+.swiper_wrap {
+  width: 100%;
+  height: 508px;
+  overflow: hidden;
+}
+.slide1_txt, .slide1_txt2{
+  position:absolute;
+  transform: translate(-50%);
+  color: #fff;
+  font-family: "Jua", sans-serif;
+}
+.slide1_txt{
+  font-size: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #fff;
+  padding: 0 0 20px 0;
+  left: 50%; top: 10%;
+}
+.slide1_txt span{
+  color: #f8ba74;
+}
+.slide1_txt2{
+  left: 50%; top: 27%;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+.first_slide button{
+  position: absolute;
+  left: 50%; top: 43%;
+  transform: translate(-50%);
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;  
+}
+.slide2_txt, .slide2_txt2{
+  position: absolute;
+  transform: translate(-50%);
+  color: #fff;
+}
+.slide2_txt{
+  left: 50%; top: 15%;
+  font-size: 20px;
+}
+.slide2_txt2{
+  left: 50%; top: 21%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.second_slide button{
+  position: absolute;
+  left: 50%; top: 30%;
+  transform: translate(-50%);
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.SwiperSlide img:nth-child(2) {
+  width: 350px;
+  position: absolute;
+  bottom: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  height: 680px;
+  position: relative;
+  overflow: hidden;
+}
+
+.first-slide {
+  position: relative;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dog-image {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80%; 
+  height: auto;
+  z-index: 1;
+}
+
+.second-slide {
+  height: 100%;
+}
+
+.other-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 필요에 따라 Swiper 기본 스타일 변경 */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important; /* 화살표 색상 변경 */
+}
+
+.swiper-pagination-bullet {
+  background-color: #333 !important; /* 페이지네이션 색상 변경 */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+/* 2번째 컨텐츠 */
+.second_con_wrap{
+  width: 100%;
+  background: #f7f1e5;
+  padding: 50px 0;
+}
+.second_con_wrap > div, .third_con_wrap > div{
+  text-align: center;
+}
+.second_con_wrap > div > div{
+  text-align: center;
+}
+.second_con_wrap > div > div img, .third_con_wrap > div >div img{
+  width: 50px;
+}
+.second_con_wrap h2, .third_con_wrap h2{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 25px;
+  color: #646464;
+
+}
+.second_con_wrap h2 span, .third_con_wrap h2 span, .fourth_con_wrap h2 span{
+  font-weight: bold;
+  letter-spacing: -3px;
+  margin: 10px 0;
+  display: inline-block;
+}
+.second_con_wrap button{
+  border: 1px solid #333;
+  background: #f7f1e5;
+  padding: 7px 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.second_con{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.second_con img{
+  border-radius: 10px;
+  width: 180px;
+  cursor: pointer;
+}
+.petfood_txt{
+  line-height: 20px;
+  text-align: left !important;
+  margin-left: 20px;
+  color: #646464;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.petfood_txt > div p:nth-child(2){
+  font-weight: bold;
+  font-size: 14px;
+}
+.petfood_txt > p{
+  margin: 10px 0;
+  color: #eb4823;
+  font-weight: bold;
+  font-size: 16px;
+}
+.second_con_icon span{
+  background-color: #c43b39;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.third_con_wrap button{
+  border: 1px solid #333;
+  background: #fff;
+  padding: 7px 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.third_con_wrap{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 300px;
+}
+
+.third_con_wrap > div p{
+  color: #646464;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* 4번째 컨텐츠 */
+.fourth_con_wrap{
+  background: #ede9e8;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+}
+.dog_photo img{
+  width: 100%;
+  position: absolute;
+  top: 1435px;
+}
+.fourth_con_title{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 10px;
+  color: #646464;
+}
+.insta_logo{
+  height: 40px;
+}
+.fourth_con_title h2{
+  font-size: 30px;
+}
+.fourth_con{
+  width: 90%;
+}
+.fourth_con_wrap p{
+  text-align: center;
+  margin: 20px 0;
+  color: #646464;
+  font-weight: 600;
+}
+.fourth_con2{
+  padding: 20px 0;
+}
+.fourth_con1, .fourth_con2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fourth_con1 img, .fourth_con2 img{
+  width: 50%;
+}
+.fourth_con1 a img, .fourth_con2 a img{
+  width: 100%;
+}
+.fourth_con1 a img:hover, .fourth_con2 a img:hover{
+  opacity: 0.5;
+}
